@@ -160,7 +160,7 @@ body   {
 
 }
 
-.ingredientsContainer, .instructionsContainer, .nutritionContainer {
+.ingredientsContainer, .instructionsContainer, .nutritionContainer, .homeContainer {
     position: relative;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ body   {
     flex-direction: column;
     margin-top: 3em;
 }
-.ingredientsDeco, .instructionsDeco, .nutritionDeco {
+.ingredientsDeco, .instructionsDeco, .nutritionDeco, .homeDeco {
     top: 0;
     height: 0;
     border-top: 0.8em solid white;
@@ -179,7 +179,7 @@ body   {
     animation: fadeIn 1s 4s forwards, subExtend 1s 4.5s forwards;
 }
 
-.ingredientsText, .instructionsText, .nutritionText {
+.ingredientsText, .instructionsText, .nutritionText, .homeText {
     position: absolute;
     font-size: 1.2em;
     font-family: "Yuji Mai";
