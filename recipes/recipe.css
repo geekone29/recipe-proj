@@ -225,45 +225,11 @@ body   {
     margin-bottom: 1.5em;
 }
 
-.nutritionCase {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    height: 100%;
-    margin-top: 2em;
-    opacity: 0;
-    animation: fadeIn 2s 5.5s forwards;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.nutrition1 {
-    color: white;
-    list-style-type: none;
-    color: lightslategray;
-    font-family: "Comfortaa";
-}
-
-.nutrition2 {
-    color: white;
-    color: lightslategray;
-    list-style-type: none;
-    font-family: "Comfortaa";
-    margin-left: 8em;
-}
-.nutrition1Info, .nutrition2Info {
-    color: white;
-    list-style-type: none;
-    font-family: "Amethysta";
-    font-size: 0.9em;
-    margin-left: 2.5em;
-}
-
-.nutrition1 li, .nutrition2 li {
-    margin-bottom: 0.67em;
-}
-
-.nutrition1Info li, .nutrition2Info li {
-    margin-bottom: 0.75em;
-}
 
 @keyframes expand {
     from {transform: scale(0.01)} to {transform: scale(1)};
